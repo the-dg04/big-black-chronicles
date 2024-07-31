@@ -1,0 +1,9 @@
+window.onload=()=>{
+    blog_texts=document.getElementsByClassName("blog-content");
+    for(i=0;i<blog_texts.length;i++){
+        console.log(blog_texts[i]);
+        if(blog_texts[i].innerHTML.length>150){
+            blog_texts[i].innerHTML=blog_texts[i].innerHTML.slice(0,145)+"...";
+        }
+    }
+}

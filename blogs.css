@@ -1,0 +1,36 @@
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.blog-title{
+    color:var(--color-200);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.blog-author{
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.blog-content{
+    margin-left: 20px;
+}
+.read-more{
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+.blog-footer{
+    margin-left: 20px;
+    justify-self: flex-end;
+    display: flex;
+}
+
+.foot-card{
+    margin-right: 5px;
+}

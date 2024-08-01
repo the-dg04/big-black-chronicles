@@ -52,6 +52,10 @@
     align-items: center;
 }
 
+.link:hover{
+    color:white;
+}
+
 .blocky{
     background-color: var(--color-300);
     color:white;
@@ -90,9 +94,6 @@
     .link{
         margin-top: 20px;
         margin-bottom: 20px;
-    }
-    .link:hover{
-        color:white;
     }
     .hamburger-menu{
         display: block;

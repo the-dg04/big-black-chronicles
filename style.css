@@ -23,7 +23,7 @@
     background-color: var(--color-200);
     margin-top: 10px;
     border-radius: 5px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .logo{
@@ -42,6 +42,7 @@
     justify-content: flex-end;
     padding: 10px;
 }
+
 .link{
     text-decoration: none;
     color:black;
@@ -68,6 +69,7 @@
 
 .hamburger-menu{
     /* border:1px solid black; */
+    border: none;
     display: none;
     margin-right:10px;
     height:60%;
@@ -76,6 +78,21 @@
 @media only screen and (max-width: 600px) {
     .navlinks{
         display: none;
+        /* display: flex; */
+        flex-direction: column;
+        top:60px;
+        background-color: var(--color-200);
+        position:absolute;
+        align-items: center;
+        width: 95vw;
+        padding:0px;
+    }
+    .link{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .link:hover{
+        color:white;
     }
     .hamburger-menu{
         display: block;
